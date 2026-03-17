@@ -55,7 +55,7 @@ python src/application/main.py \
     simulation \
         --num-examples 500 \
         --task_type cate \
-        --treatment_type binary \
+        --treatment_type discrete \
     imp \
         --learning-rate 0.05 \
         --gp_epochs 500
