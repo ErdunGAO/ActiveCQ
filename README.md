@@ -93,39 +93,6 @@ python src/application/main.py \
         -m VR_CME_B
 ```
 
-## Project Structure
-
-```
-ActiveCQ/
-  src/
-    application/
-      main.py                    # CLI entry point
-      workflows/
-        active_learning.py       # Active learning loop
-        training.py              # Model training
-        tuning.py                # Hyperparameter tuning
-        evaluation.py            # AMSE evaluation and plotting
-        utils.py                 # Shared utilities
-    library/
-      acquisitions.py            # Acquisition functions (random, coresets, ACQE, etc.)
-      plotting.py                # Visualization utilities
-      models/
-        imp.py                   # IMP models (CATE, ATE, ATT, DS)
-        deep_kernel.py           # Deep Kernel GP
-        tarnet.py                # TARNet
-        neural_network.py        # Neural network model
-      modules/
-        CME.py                   # Conditional Mean Embedding
-        gaussian_process.py      # GP modules
-        cdest/                   # Conditional density estimation (MDN, LSCDE, KMN)
-      datasets/
-        simulation.py            # Synthetic data generation
-        ihdp.py                  # Semi-synthetic dataset loader
-        active_learning.py       # Active learning dataset wrapper
-  requirements.txt
-  run_example.sh                 # Quick start example
-```
-
 ## Reference
 
 If you find this code useful, please cite:
