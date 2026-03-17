@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+*.egg-info/
+.vscode/
+.DS_Store
+
+experiments/
+data/
+wandb/
+output_logs/
